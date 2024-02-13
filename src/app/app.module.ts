@@ -1,18 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SidecardComponent } from './sidecard/sidecard.component';
-import { SidemenubarComponent } from './sidemenubar/sidemenubar.component';
-import { SideMenuCardComponent } from './side-menu-card/side-menu-card.component';
+import { SidemenucardComponent } from './sidemenucard/sidemenucard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SidecardComponent,
-    SidemenubarComponent,
-    SideMenuCardComponent
+    SidemenucardComponent
   ],
   imports: [
     BrowserModule,
