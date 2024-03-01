@@ -320,31 +320,32 @@ margin-left: 10px;
 .rules-cancel-submit{
   margin-bottom: 20px;
   display: flex;
+  font-size: 10px;
+  gap: 50px;
 }
 
 
 .rules-icon-label {
-
   align-items: center;
   display: flex;
-  gap: 8px; /* Adjust the gap as needed */
+  gap: 8px; 
   color: rgb(162, 7, 82);
  }
 
  .cancel-icon-label{
-  margin-left: 430px;
+ 
   align-items: center;
   display: flex;
-  gap: 8px; /* Adjust the gap as needed */
+  gap: 8px; 
   color: rgb(162, 7, 82);
 
  }
 
  .submit-icon-label{
-  margin-left: 20px;
+
   align-items: center;
   display: flex;
-  gap: 8px; /* Adjust the gap as needed */
+  gap: 8px; 
   color: rgb(162, 7, 82);
  
 
