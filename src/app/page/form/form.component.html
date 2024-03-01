@@ -1,0 +1,82 @@
+<div class="form-container">
+    <form [formGroup] = "userForm" (ngSubmit) = "submitForm(userForm.value)">
+      <div class="row">
+        <mat-form-field appearance="fill" class="col">
+          <mat-label>Salutation</mat-label>
+          <mat-select formControlName="salutation" placeholder="Select Salutation" (selectionChange)="validateForm()">
+            <mat-option value="Mr">Mr</mat-option>
+            <mat-option value="Ms">Ms</mat-option>
+            <mat-option value="Mrs">Mrs</mat-option>
+          </mat-select>
+          <mat-error *ngIf="userForm.get('salutation')?.hasError('required')">
+            Salutation is required
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="col">
+          <mat-label>Gender</mat-label>
+          <mat-select formControlName="gender" placeholder="Select Gender" (selectionChange)="validateForm()">
+            <mat-option value="Male">Male</mat-option>
+            <mat-option value="Female">Female</mat-option>
+          </mat-select>
+          <mat-error *ngIf="userForm.get('gender')?.hasError('required')">
+            Gender is required
+          </mat-error>
+        </mat-form-field>  
+        <mat-form-field appearance="fill" class="col">
+          <mat-label>Nationality</mat-label>
+          <mat-select formControlName="nationality" placeholder="Select Nationality" (selectionChange)="validateForm()">
+            <mat-option value="Ind">India</mat-option>
+            <mat-option value="Ger">Germany</mat-option>
+            <mat-option value="Can">Canada</mat-option>
+          </mat-select>
+          <mat-error *ngIf="userForm.get('nationality')?.hasError('required')">
+            Nationality is required
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="col">
+          <mat-label>Country of Residence</mat-label>
+          <mat-select formControlName="COR" placeholder="Select Country of Residence" (selectionChange)="validateForm()">
+            <mat-option value="Ind">India</mat-option>
+            <mat-option value="Ger">Germany</mat-option>
+            <mat-option value="Can">Canada</mat-option>
+          </mat-select>
+          <mat-error *ngIf="userForm.get('COR')?.hasError('required')">
+            Country of Residence is required
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="col">
+          <mat-label>Age Proof</mat-label>
+          <mat-select formControlName="age_proof" placeholder="Select Age Proof" (selectionChange)="onAgeProofChange()">
+            <mat-option value="Pan">PAN Card</mat-option>
+            <mat-option value="Aadhar">Aadhar Card</mat-option>
+          </mat-select>
+          <mat-error *ngIf="userForm.get('age_proof')?.hasError('required')">
+            Age Proof is required
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="col">
+          <mat-label>PAN Card Number</mat-label>
+          <input matInput placeholder="Enter PAN Number" formControlName="panNumber">
+          <mat-error *ngIf="userForm.get('panNumber')?.hasError('required')">
+            PAN Number is required
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="col">
+          <mat-label>AADHAR Card Number</mat-label>
+          <input matInput placeholder="Enter AADHAR Number" formControlName="aadharNumber">
+          <mat-error *ngIf="userForm.get('aadharNumber')?.hasError('required')">
+            AADHAR Number is required
+          </mat-error>
+        </mat-form-field>
+      </div>
+      
+      <div *ngIf="serverErrors.validation && serverErrors.validation.length > 0">
+        <p *ngFor="let error of serverErrors.validation" id="error">{{ error.message }}</p>
+      </div>
+  
+      <button mat-raised-button color="primary" type="submit" (click)="submitForm(userForm.value)" [disabled]="!successMessage">Submit</button>
+  
+    </form>
+  
+    
+  </div>

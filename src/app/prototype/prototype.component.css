@@ -1,0 +1,351 @@
+
+.sbi-logo {
+  width: 140px;
+  height: 80px;
+ 
+
+
+}
+
+.customer-icon {
+  height: 25px;
+  width: 25px;
+
+}
+
+.custom-list-item:hover {
+  background-color:rgb(162, 7, 82, 0.2); 
+  border-radius: 10px;
+  
+}
+
+
+.policy-info {
+  padding: 10px;
+}
+
+
+.label-value-pair {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+  font-size: 10px;
+  gap: 30px;
+  font-weight: bold;
+}
+
+.label {
+  color: rgb(87, 63, 141);
+  width: 90px; 
+}
+
+.value {
+  color:  rgb(162, 7, 82); 
+}
+
+
+.image{
+  border-color: brown;
+  border-style: double;
+  width: 80px;
+  height: 80px;
+
+
+ 
+
+}
+
+
+
+
+
+.primary-details h6 {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(162, 7, 82);
+  padding: 5px;
+  margin-bottom: 2px;
+}
+
+.primary-details-label {
+  font-size: 11px;
+  margin-bottom: 2px;
+}
+
+
+
+.plan-details-label-value2-pair {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 10px;
+  gap: 10px;
+  font-weight: bold;
+  
+  
+}
+
+
+.plan-details h6 {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(162, 7, 82);
+  padding: 5px;
+}
+
+.plan-details-label {
+  width: 100px; 
+  color: gray;
+}
+.value2 {
+  
+  align-self: center;
+
+  font-size: 11px;
+  color: grey;
+  
+}
+
+
+.smile{
+
+
+  color: #f5f5f5;
+
+}
+
+.stp-results{
+  font-size: 11px;
+  background-color: rgb(162, 7, 82);
+ 
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+ 
+  align-items: center;
+  
+}
+
+.credit-score{
+  font-size: 11px;
+  background-color: rgb(162, 7, 82);
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+}
+
+
+
+.policy-details {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1px;
+  
+
+}
+
+.card-headers{
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(162, 7, 82);
+  margin-bottom: 10px;
+}
+
+.edit-icon{
+  float: right;
+ 
+}
+
+.eye-icon{
+  float: right;
+  color: black;
+  margin-right: 10px;
+}
+
+
+
+.policy-details-label-value3-pair {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  font-size: 11px;
+  gap: 40px;
+}
+
+.policy-details-label {
+  width: 120px;
+}
+
+.value3 {
+  color: rgb(0, 0, 0);
+}
+
+
+
+  
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  gap: 10px;
+}
+
+.label-card {
+  background-color: rgb(162, 7, 82);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.score{
+  font-size: 11px;
+  padding: 10px;
+
+
+
+}
+
+
+.circle-card {
+  padding: 10px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgb(240, 230, 230);
+ 
+  margin-top: 5px;
+  margin-left: -15px;
+}
+
+.policy-details-label1-value4-pair {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  font-size: 9px;
+  gap: 40px;
+
+}
+
+.policy-details-label1 {
+  font-size: 11px;
+  margin-bottom: -5px;
+  width: 120px;
+
+}
+
+.value4 {
+  color: rgb(0, 0, 0);
+  align-self: center;
+  margin-bottom: -5px;
+  font-size: 11px;
+
+}
+
+
+
+
+
+.mat-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; 
+}
+
+.mat-header-row {
+  background-color: #f5f5f5; 
+}
+
+.mat-header-cell, .mat-cell {
+  padding: 8px; 
+  text-align: left; 
+  font-size: 10px;
+}
+
+.mat-header-cell {
+  font-weight: normal; 
+  font-size: 12px;
+}
+
+
+
+.other-insurance-top-card{
+  height: 200px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1px;
+ 
+
+}
+
+.other-insurance-below-card{
+  height: 220px;
+  border-radius: 1px;
+
+}
+
+.uploaded-image {
+  overflow-y:scroll;
+
+  
+  height: 480px;
+ 
+}
+
+
+
+.icons{
+  
+  justify-content: space-evenly;
+  display: flex;
+  margin-bottom: 20px;
+  color: rgb(162, 7, 82);
+ 
+
+}
+
+
+.book-logo{
+  margin-bottom: 15px;
+}
+
+.label-text{
+  margin-bottom: 10px;
+margin-left: 10px;
+}
+
+.rules-cancel-submit{
+  margin-bottom: 20px;
+  display: flex;
+}
+
+
+.rules-icon-label {
+
+  align-items: center;
+  display: flex;
+  gap: 8px; /* Adjust the gap as needed */
+  color: rgb(162, 7, 82);
+ }
+
+ .cancel-icon-label{
+  margin-left: 430px;
+  align-items: center;
+  display: flex;
+  gap: 8px; /* Adjust the gap as needed */
+  color: rgb(162, 7, 82);
+
+ }
+
+ .submit-icon-label{
+  margin-left: 20px;
+  align-items: center;
+  display: flex;
+  gap: 8px; /* Adjust the gap as needed */
+  color: rgb(162, 7, 82);
+ 
+
+ }

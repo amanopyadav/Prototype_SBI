@@ -1,0 +1,314 @@
+<div class="container-fluid h-100" style="font-family: Montserrat;">
+  <div class="row h-100">
+
+    <!-- Side Nav -->
+    <div class="col-md-2 bg-white text-white side-nav">
+      <mat-sidenav mode="side" opened>
+
+        <img src="assets/sbi.png" class="sbi-logo" style="margin-left: 15px; margin-top: 15px;">
+        <hr>
+        <img src="assets/customer.png" class="customer-icon" style="margin-left: 15px;">
+        <br>
+        <hr>
+        <mat-nav-list>
+          <mat-expansion-panel style="background-color: rgb(38, 38, 76);">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <span style="font-family: Montserrat;">Proposal Details</span>
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <mat-list>
+              <a style="font-family: Montserrat;" mat-list-item href="#" class="custom-list-item">Client Roles</a>
+              <a style="font-family: Montserrat;" mat-list-item href="#" class="custom-list-item">Proposal Details</a>
+              <a style="font-family: Montserrat;" mat-list-item href="#" class="custom-list-item">Plan Details</a>
+              <a style="font-family: Montserrat;" mat-list-item href="#" class="custom-list-item">Medical Details</a>
+              <a style="font-family: Montserrat;" mat-list-item href="#" class="custom-list-item">Other Insurance</a>
+              <a style="font-family: Montserrat;" mat-list-item href="#" class="custom-list-item">Bank Details</a>
+            </mat-list>
+          </mat-expansion-panel>
+        </mat-nav-list>
+      </mat-sidenav>
+    </div>
+
+
+    <!-- Main Content -->
+    <div class="col-md-10 main-content">
+      <div class="row h-100">
+        <div class="container" style="background-color: rgba(120, 118, 118, 0.2);">
+
+
+          <mat-card class="top-card mt-2" style="background-color: rgba(154, 145, 145, 0.201);">
+            <div class="row">
+              <div class="col-md-3">
+
+
+                <div class="policy-info">
+                  <div class="label-value-pair">
+                    <div class="label">Policy Number</div>
+                    <div class="value">XXXXXXXXXXXXXX</div>
+                  </div>
+                  <div class="label-value-pair">
+                    <div class="label">Proposal Category</div>
+                    <div class="value">Individual</div>
+                  </div>
+                  <div class="label-value-pair">
+                    <div class="label">Proposal Date</div>
+                    <div class="value">00-00-0000</div>
+                  </div>
+                  <div class="label-value-pair">
+                    <div class="label">Proposal Branch</div>
+                    <div class="value">XXXXXXXXXXX</div>
+                  </div>
+                  <div class="label-value-pair">
+                    <div class="label">Channel</div>
+                    <div class="value">Online</div>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+              <div class="col-md-1">
+
+
+                <img src="assets/image1.jpg" alt="" class="image">
+
+              </div>
+
+
+              <div class="col-md-2">
+
+                <div class="primary-details">
+                  <h6>Primary</h6>
+                  <div class="primary-details-label">
+                    Full name of the client
+                  </div>
+                  <div class="primary-details-label d-flex align-items-center">
+                    <mat-icon style="color: rgb(162, 7, 82);">email</mat-icon>
+                    <span>EmailId@gmail.com</span>
+                  </div>
+                  <div class="primary-details-label d-flex align-items-center">
+                    <mat-icon style="color: rgb(162, 7, 82);">phone_in_talk</mat-icon>
+                    <span>+91 9090909000</span>
+                  </div>
+                  <div class="primary-details-label d-flex align-items-center">
+                    <mat-icon style="color: rgb(162, 7, 82);">date_range</mat-icon>
+                    <span>DD-MM-YYYY</span>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-3">
+
+                <div class="plan-details">
+                  <h6>Plan Details</h6>
+                  <div class="plan-details-label-value2-pair">
+                    <div class="plan-details-label">Plan Id</div>
+                    <div class="value2">00-00-0000</div>
+                  </div>
+                  <div class="plan-details-label-value2-pair">
+                    <div class="plan-details-label">Plan Name</div>
+                    <div class="value2">XXXXXXXXXXXX</div>
+                  </div>
+                  <div class="plan-details-label-value2-pair">
+                    <div class="plan-details-label">Sum Assured</div>
+                    <div class="value2">XXXXXXX XXXXXXX</div>
+                  </div>
+                  <div class="plan-details-label-value2-pair">
+                    <div class="plan-details-label">Premium Frequency</div>
+                    <div class="value2">XXXXX XXXXX</div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-1 d-flex">
+                <mat-card class="stp-results">
+                  <mat-icon class="smile">tag_faces</mat-icon>
+                  <br>
+                  <br>
+                  <p style="color: white;">STP Results</p>
+                </mat-card>
+              </div>
+
+              <div class="col-md-1 d-flex">
+                <mat-card class="credit-score">
+                  <mat-progress-spinner class="spinner" mode="determinate" [value]="completionPercentage3" diameter="30"
+                    strokeWidth="3">
+                  </mat-progress-spinner>
+                  <br>
+                  <br>
+                  <p style="color: white;">Credit Score</p>
+                </mat-card>
+              </div>
+
+            </div>
+          </mat-card>
+
+          <div class="row">
+            <div class="col-md-4">
+              <mat-card class="policy-details mt-4">
+
+                <div class="card-headers">
+                  <span>Policy Details</span>
+                  <mat-icon class="edit-icon">edit</mat-icon>
+                  <mat-icon class="eye-icon">remove_red_eye</mat-icon>
+
+                </div>
+                <div class="policy-details-label-value3-pair">
+                  <div class="policy-details-label">Proposal Category</div>
+                  <div class="value3">Individual</div>
+                </div>
+                <div class="policy-details-label-value3-pair">
+                  <div class="policy-details-label">Proposal Date</div>
+                  <div class="value3">00-00-0000</div>
+                </div>
+                <div class="policy-details-label-value3-pair">
+                  <div class="policy-details-label">Date of Inward</div>
+                  <div class="value3">00-00-0000</div>
+                </div>
+                <div class="policy-details-label-value3-pair">
+                  <div class="policy-details-label">Product Name</div>
+                  <div class="value3">XXXXX XXXXX</div>
+                </div>
+                <div class="policy-details-label-value3-pair">
+                  <div class="policy-details-label">Product Name</div>
+                  <div class="value3">XXXXX XXXXX</div>
+                </div>
+
+                <div class="score-container">
+
+                  <div class="label-card">
+                    <span class="score">Score</span>
+                  </div>
+                  <div class="circle-card">
+                    <mat-progress-spinner mode="determinate" [value]="completionPercentage1" diameter="30"
+                      strokeWidth="3" color="primary">
+                    </mat-progress-spinner>
+                  </div>
+
+
+                  <div class="label-card">
+                    <span class="score">Score</span>
+                  </div>
+                  <div class="circle-card">
+                    <mat-progress-spinner mode="determinate" [value]="completionPercentage2" diameter="30"
+                      strokeWidth="3" color="accent">
+                    </mat-progress-spinner>
+                  </div>
+                </div>
+
+
+                <div class="policy-details-label1-value4-pair">
+                  <div class="policy-details-label1">Product Name</div>
+                  <div class="value4">XXXXX XXXXX</div>
+                </div>
+                <div class="policy-details-label1-value4-pair">
+                  <div class="policy-details-label1">Product Name</div>
+                  <div class="value4">XXXXX XXXXX</div>
+                </div>
+
+
+                <table class="mat-table">
+                  <tr class="mat-header-row">
+                    <th class="mat-header-cell">Cover Name</th>
+                    <th class="mat-header-cell">PT</th>
+                    <th class="mat-header-cell">PPT</th>
+                    <th class="mat-header-cell">Sum Assured</th>
+                    <th class="mat-header-cell">Premium</th>
+                  </tr>
+                  <tr class="mat-row">
+                    <td class="mat-cell">XXXXXXX</td>
+                    <td class="mat-cell">00</td>
+                    <td class="mat-cell">00</td>
+                    <td class="mat-cell">000000</td>
+                    <td class="mat-cell">000000</td>
+                  </tr>
+                  <tr class="mat-row">
+                    <td class="mat-cell">XXXXXXX</td>
+                    <td class="mat-cell">00</td>
+                    <td class="mat-cell">00</td>
+                    <td class="mat-cell">000000</td>
+                    <td class="mat-cell">000000</td>
+                  </tr>
+                  <tr class="mat-row">
+                    <td class="mat-cell">XXXXXXX</td>
+                    <td class="mat-cell">00</td>
+                    <td class="mat-cell">00</td>
+                    <td class="mat-cell">000000</td>
+                    <td class="mat-cell">000000</td>
+                  </tr>
+
+                </table>
+
+              </mat-card>
+            </div>
+
+            <div class="col-md-4">
+              <mat-card class="other-insurance-top-card mt-4" style="background-color: rgb(255, 255, 255);">
+                <div class="card-headers">
+                  <span>Other Insurance</span>
+                  <mat-icon class="edit-icon">edit</mat-icon>
+                  <mat-icon class="eye-icon">remove_red_eye</mat-icon>
+
+                </div>
+              </mat-card>
+
+              <mat-card class="other-insurance-below-card mt-2" style="background-color: rgb(255, 255, 255);">
+                hellods
+              </mat-card>
+
+
+            </div>
+
+            <div class="col-md-4">
+              <mat-card class="image-card mt-4" style="background-color: white;">
+                <img src="assets/sbiform.png" alt="" class="uploaded-image">
+                <div class="icons">
+                  <mat-icon>skip_previous</mat-icon>
+                  <mat-icon>skip_next</mat-icon>
+                  <mat-icon>rotate_left</mat-icon>
+                  <mat-icon>rotate_right</mat-icon>
+                  <mat-icon>zoom_in</mat-icon>
+                  <mat-icon>zoom_out</mat-icon>
+                </div>
+
+              </mat-card>
+
+            </div>
+
+          </div>
+
+          <div class="rules-cancel-submit ">
+
+            <div class="rules-icon-label">
+              <mat-icon>book</mat-icon> Rerun Rules
+            </div>
+
+
+            <div class="cancel-icon-label">
+              <mat-icon>cancel_presentation</mat-icon> Cancel
+            </div>
+
+            <div class="submit-icon-label">
+              <mat-icon>folder_special</mat-icon> Submit
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <footer class="footer"
+      style="background-color:  rgb(38, 38, 76);color: white; font-size: 10px; position: fixed; bottom: 0; height: 15px;">
+      <span>2023 SBI Life Insurance Company Limited. All rights reserved.</span>
+    </footer>
+
+  </div>
+
+</div>
